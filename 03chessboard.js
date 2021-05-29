@@ -1,13 +1,13 @@
-let size = 8;
-let board = "";
-for (let y = 0; y < size; y++) {
-    for (let x = 0; x < size; x++) {
+tamanho = 10;
+quadro = "";
+for (y = 0; y < tamanho; y++) {
+    for (x = 0; x < tamanho; x++) {
         if ((x + y) % 2 == 0) {
-            board += " ";
+            quadro += " ";
         } else {
-          board += "#";
+          quadro += "#";
         }
       }
-      board += "\n";
+      quadro += "\n";
     }
-console.log(board);
+console.log(quadro);
