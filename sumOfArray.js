@@ -1,9 +1,9 @@
 var numArr = [1, 2, 3];
 var sumArr = 0;
-function somatorio () {
+function sumOfArray () {
     for (var i = 0; i < numArr.length; i++) {
         sumArr += numArr[i]
     }
 }
-somatorio();
+sumOfArray();
 console.log("Your sum is " + sumArr + ".");
